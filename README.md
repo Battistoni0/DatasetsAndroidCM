@@ -1,16 +1,21 @@
-# ia2flutter
+## Descripción
 
-A new Flutter project.
+Como las nuevas tecnologías y el desarrollo de la inteligencia artificial crecen día a día, este proyecto se creó para ayudar a los equipos a llenar y descargar datasets de manera más amigable. Esta aplicación permite a los usuarios autenticarse con Google, cargar imágenes a datasets específicos y descargar datasets para su análisis y uso en modelos de aprendizaje automático.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- Cargar imágenes a datasets específicos.
+- Descargar datasets completos.
+- Interfaz amigable y fácil de usar.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalación
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clona el repositorio:
+   ```sh
+   git clone <url-del-repositorio>
+
+## Instalación de dependencias
+
+    ```sh
+flutter pub get
