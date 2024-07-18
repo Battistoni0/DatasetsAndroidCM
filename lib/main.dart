@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'pages/choose_photo_page.dart';
+import 'pages/home_page.dart'; // Renombrado de choose_photo_page.dart a home_page.dart
 import 'pages/subfolders_page.dart';
-import 'pages/view_photo_page.dart';
+import 'pages/upload_image_page.dart'; // Renombrado de view_photo_page.dart a upload_image_page.dart
 import 'pages/images_page.dart';
 
 void main() {
@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ChoosePhotoPage(),
+      home: const HomePage(),
       routes: {
-        ChoosePhotoPage.routeName: (context) => const ChoosePhotoPage(),
-        ViewPhotoPage.routeName: (context) =>
-            ViewPhotoPage(imageFile: null), // Default argument for null
+        HomePage.routeName: (context) => const HomePage(),
+        UploadImagePage.routeName: (context) =>
+            UploadImagePage(imageFile: null), // Default argument for null
       },
       onGenerateRoute: (settings) {
         if (settings.name == SubfoldersPage.routeName) {

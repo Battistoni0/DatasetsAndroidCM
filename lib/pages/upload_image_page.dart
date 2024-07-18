@@ -3,18 +3,18 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class ViewPhotoPage extends StatefulWidget {
-  static const routeName = '/view-photo';
+class UploadImagePage extends StatefulWidget {
+  static const routeName = '/upload-image';
 
   final File? imageFile;
 
-  const ViewPhotoPage({Key? key, required this.imageFile}) : super(key: key);
+  const UploadImagePage({Key? key, required this.imageFile}) : super(key: key);
 
   @override
-  _ViewPhotoPageState createState() => _ViewPhotoPageState();
+  _UploadImagePageState createState() => _UploadImagePageState();
 }
 
-class _ViewPhotoPageState extends State<ViewPhotoPage> {
+class _UploadImagePageState extends State<UploadImagePage> {
   final TextEditingController _datasetController = TextEditingController();
   final TextEditingController _labelController = TextEditingController();
   final TextEditingController _descriptionController = TextEditingController();
@@ -145,7 +145,7 @@ class _ViewPhotoPageState extends State<ViewPhotoPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Ver Foto"),
+        title: const Text("Subir Imagen"),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {

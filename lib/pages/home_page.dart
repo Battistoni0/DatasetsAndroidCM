@@ -6,18 +6,18 @@ import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'subfolders_page.dart';
-import 'view_photo_page.dart';
+import 'upload_image_page.dart';
 
-class ChoosePhotoPage extends StatefulWidget {
-  static const routeName = '/choose-photo';
+class HomePage extends StatefulWidget {
+  static const routeName = '/home';
 
-  const ChoosePhotoPage({Key? key}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
-  State<ChoosePhotoPage> createState() => _ChoosePhotoPageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _ChoosePhotoPageState extends State<ChoosePhotoPage> {
+class _HomePageState extends State<HomePage> {
   File? _imageFile;
   List<String> _folders = [];
   bool _loading = true;
@@ -68,7 +68,7 @@ class _ChoosePhotoPageState extends State<ChoosePhotoPage> {
 
     Navigator.pushNamed(
       context,
-      ViewPhotoPage.routeName,
+      UploadImagePage.routeName,
       arguments: imageFile,
     ).then((_) {
       setState(() {
