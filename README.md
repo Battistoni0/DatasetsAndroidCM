@@ -1,7 +1,11 @@
 ## Integrantes
 
-**Profesor:** Sebastián Salazar Molina  
-**Integrantes:** Héctor Arturo Araya Pérez, Carlos Araya, Ian Battistoni
+**Profesor:** 
+   Sebastián Salazar Molina  
+**Integrantes:** 
+   Héctor Arturo Araya Pérez
+   Carlos Araya
+   Ian Battistoni
 
 ## Descripción
 
