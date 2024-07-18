@@ -1,3 +1,8 @@
+## Integrantes
+
+**Profesor:** Sebastián Salazar Molina  
+**Integrantes:** Héctor Arturo Araya Pérez, Carlos Araya, Ian Battistoni
+
 ## Descripción
 
 Como las nuevas tecnologías y el desarrollo de la inteligencia artificial crecen día a día, este proyecto se creó para ayudar a los equipos a llenar y descargar datasets de manera más amigable. Esta aplicación permite a los usuarios autenticarse con Google, cargar imágenes a datasets específicos y descargar datasets para su análisis y uso en modelos de aprendizaje automático.
