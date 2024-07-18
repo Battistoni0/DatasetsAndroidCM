@@ -17,5 +17,5 @@ Como las nuevas tecnologías y el desarrollo de la inteligencia artificial crece
 
 ## Instalación de dependencias
 
-    ```sh
-flutter pub get
+   ```sh
+   flutter pub get
